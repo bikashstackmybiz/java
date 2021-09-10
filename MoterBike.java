@@ -1,6 +1,6 @@
 public class MoterBike {
     void start(){
-        System.out.println("Bike Start");
+        System.out.println("Bike  has been Start");
     }
     void shiftGear(int gear){
         System.out.printf("The Bike is in gear no %d",gear).println();
