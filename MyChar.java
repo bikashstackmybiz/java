@@ -9,7 +9,7 @@ public class MyChar {
     }
     
 public static void main(String[] args) {
-    while(true){
+    
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any chactor  :");
@@ -19,7 +19,7 @@ public static void main(String[] args) {
     
      System.out.println(myChar.isVowel());
      
-    }
+    
 }
 
 
