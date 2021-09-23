@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+import java.util.Scanner;
 public class MyChar {
     char ch;
     MyChar(char ch){
@@ -5,26 +8,41 @@ public class MyChar {
 
     }
     
-
-    
 public static void main(String[] args) {
-    MyChar myChar = new MyChar('c');
-    System.out.println( myChar.isVowel());
-    System.out.println(myChar.isConstant());
+    while(true){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any chactor  :");
+      char c = sc.next().charAt(0);
+
+    MyChar myChar = new MyChar(c);
+    
+     System.out.println(myChar.isVowel());
+     
+    }
 }
 
 
-public boolean isConstant() {
-    if(!isVowel() )
-        return true;
-    
-	return false;
-    
-}
+
+
+public String isVowel(){
+    char [] arrToFind = { 'a', 'e', 'i', 'o', 'u'};
+    for(int i = 0; i<5 ; i++)
+    {
+        if(arrToFind[i] == ch)
+        return " It is Vowel ";
+    } 
+    return "It is Consont ";
 
 
 
-public boolean isVowel(){
+
+     // this is older one 
+   /*if (ch == 'a' ||)
+
+
+
+
     if ( ch == 'a')
      return true;
     if(  ch == 'e')
@@ -47,7 +65,7 @@ public boolean isVowel(){
     if (ch == 'U')
     return true;
 
-	return false;
+	return false;*/
      
 }
 

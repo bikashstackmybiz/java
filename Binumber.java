@@ -1,6 +1,7 @@
 public class Binumber {
     private int number1;
     private int number2;
+
     int getNumber1(){
        return this.number1;
     }
@@ -12,16 +13,16 @@ public class Binumber {
         this.number2 = number2;
     }
     int add(){
-        int sumOfNumber = this.number1+ this.number2;
+        int sumOfNumber = this.number1 + this.number2;
         return sumOfNumber;
     }
     int multiply(){
-        int multiplyOfNumber = this.number1*this.number2;
+        int multiplyOfNumber = this.number1 * this.number2;
         return multiplyOfNumber;
     }
     void dubble(){
-        this.number1=number1*2;
-        this.number2=number2*2;
+        this.number1 = number1 * 2;
+        this.number2 = number2 * 2;
 
     }
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ public class Book {
         this.noOfCopies = initialNoOfBook;
     }
    void setNoOfCopies(int number){  // seters
-       if(number>0){
+       if(number > 0){
        this.noOfCopies = number;
        }
    }

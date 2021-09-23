@@ -2,7 +2,8 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 public class FunctionalPrograming {
-    static List<String> list = List.of("apple","mango","banana","cat");
+    static List<String> list = List.of("apple", "mango", "banana", "cat");
+
 
     public void printSmply(List<String> list){ 
              // simple method too print all element of list

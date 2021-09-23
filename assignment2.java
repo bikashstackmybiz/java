@@ -3,7 +3,8 @@ public class assignment2 {
 
     int num1=50;
     int num2=3;
-    System.out.printf("%d",num1/num2).println();
+
+    System.out.printf("%d", num1 / num2).println();
 
     }
 
