@@ -1,8 +1,9 @@
 public class Book {
+    private int noOfCopies ;
+
     Book(int initialNoOfBook){
         this.noOfCopies = initialNoOfBook;
     }
-    private int noOfCopies ;
    void setNoOfCopies(int number){  // seters
        if(number>0){
        this.noOfCopies = number;
