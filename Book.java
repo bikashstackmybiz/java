@@ -16,7 +16,7 @@ public class Book {
         setNoOfCopies(this.noOfCopies+howMuch);
     }
     public void desreaseNo(int howMuch){  // method to decrease no of book
-        setNoOfCopies(this.noOfCopies-howMuch);
+        setNoOfCopies(this.noOfCopies - howMuch);
     }
 public static void main(String[] args) {
     

@@ -27,7 +27,7 @@ public class Binumber {
     }
     public static void main(String[] args) {
         
-        Binumber numbers = new Binumber(2,3);
+        Binumber numbers = new Binumber(2, 3);
         System.out.println(numbers.add());
         System.out.println(numbers.multiply());
         numbers.dubble();
