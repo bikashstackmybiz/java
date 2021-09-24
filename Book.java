@@ -13,7 +13,7 @@ public class Book {
      return this.noOfCopies;
     }
     public void increaseNo(int howMuch){  // method to increase no of book
-        setNoOfCopies(this.noOfCopies+howMuch);
+        setNoOfCopies(this.noOfCopies + howMuch);
     }
     public void desreaseNo(int howMuch){  // method to decrease no of book
         setNoOfCopies(this.noOfCopies - howMuch);
