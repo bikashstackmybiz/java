@@ -3,7 +3,8 @@ public class assignment1 {
 
     int num1=74;
     int num2=36;
-    System.out.printf("%d" ,num1+num2).println();
+    
+    System.out.printf("%d" ,num1 + num2).println();
 
     }
 
