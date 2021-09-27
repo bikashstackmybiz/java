@@ -17,7 +17,7 @@ public class FinallyExeption {
         public static void main(String args[]) {
 
             FinallyExeption exc = new FinallyExeption();
-            exc.test();s cfdjyg fv
+            exc.test();
         }
     
 }
