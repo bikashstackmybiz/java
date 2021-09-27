@@ -9,7 +9,7 @@ public class Multifun {
                             99, 100);
  
     
-        numbers.forEach(number      // Internal iterator
+        numbers.forEach(number      // Internal iterator usinf functional programing or lemda function
                         -> System.out.print(
                             number + " "));
     }

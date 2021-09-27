@@ -1,11 +1,11 @@
 public class FinallyExeption {
             public void test() {
                 try {
-                    int data = 200 / 25;
+                    int data = 200 / 0;
                     System.out.println(data);
     
                 } 
-                catch (NullPointerException e) {
+                catch (ArithmeticException e) {
                     System.out.println("this is wrong");
                 } 
                 finally {
