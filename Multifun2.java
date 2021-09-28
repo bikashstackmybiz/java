@@ -11,7 +11,7 @@ public class Multifun2 {
  
         
             numbers.stream()
-                .filter(number -> number % 2 == 0)
+                .filter(number -> number % 2 == 0)              //  using functional programing
                 .map(e -> e * 2)
                 .forEach(e -> System.out.println( e ) );
     }

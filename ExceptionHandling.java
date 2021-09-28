@@ -2,7 +2,7 @@ public class ExceptionHandling {
     int a;
     int b;
     int c;
-
+    
     public void method1() {
         try{
         int [] arr = {1, 4, 7, 3};
