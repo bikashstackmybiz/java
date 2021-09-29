@@ -1,18 +1,16 @@
+import java.util.Scanner;  
+
 public class HashcodeExample {
-    public static void main(String[] args) {
-        
-        HashcodeExample bikash =  new HashcodeExample();
-        HashcodeExample akash =  new HashcodeExample();
-        HashcodeExample siyaram =  new HashcodeExample();
-        HashcodeExample roshan =  new HashcodeExample();
-
-        System.out.println("hashcode of bikash object is  " + bikash.hashCode());  // hashcode of all the object are diffrent
-        System.out.println("hashcode of akash object is  " + akash.hashCode());
-        System.out.println("hashcode of siyaram object is  " + siyaram.hashCode());
-        System.out.println("hashcode of roshan object is  " + roshan.hashCode());
-
-
-
-        
-    }
+        public static void main(String[] args) {  
+          //Create integer object  
+          Scanner readInput = new Scanner(System.in); 
+          System.out.print("Enter the desired input value: ");  
+                  
+            Integer i = readInput.nextInt();  
+            // Returned hash code value for this object   
+            long hashValue = i.hashCode();  
+            System.out.println("Hash code Value for object is: " + hashValue);  
+            }  
+    
+    
 }
